@@ -1,7 +1,32 @@
 {% extends 'base.html.twig' %}
 
-
-
 {% block body %}
+
+<!-- index -->
+<!--=== Slider ===-->
+{{ include('unify/slider.html.twig') }}
+<!--=== End Slider ===-->
+<!-- Purchase Block -->
+{{ include('unify/purchase.html.twig') }}
+<!-- End Purchase Block -->
+<!-- End index -->
+
+    <!--=== Content Part ===-->
+    <div class="container">
+        {{ include('unify/container.html.twig') }}
+    </div><!--/container-->
+    <!-- End Content Part -->
+
+    <!--=== Footer ===-->
+    <div class="footer">
+        {{ include('unify/footer.html.twig') }}
+    </div><!--/footer-->
+    <!--=== End Footer ===-->
+
+
+{% endblock %}
+
+{% block javascripts  %}
+    {{ parent() }}
 
 {% endblock %}
