@@ -23,13 +23,14 @@
     <link rel="stylesheet" href="{{ asset('assets/plugins/parallax-slider/css/parallax-slider.css')}}" type="text/css">
     <link rel="stylesheet" href="{{ asset('assets/plugins/bxslider/jquery.bxslider.css')}}">
     <!-- CSS Theme -->
-    <link rel="stylesheet" href="{{ asset('assets/css/themes/default.css')}}" id="style_color">
-    <link rel="stylesheet" href="{{ asset('assets/css/themes/headers/default.css')}}" id="style_color-header-2">
+    <link rel="stylesheet" href="{{ asset('assets/css/themes/blue.css')}}" id="style_color">
+    <link rel="stylesheet" href="{{ asset('assets/css/themes/headers/header2-blue.css')}}" id="style_color-header-2">
     {% endblock %}
 </head>
 <body>
+
 <!--=== Style Switcher ===-->
-{{ include('unify/switcher.html.twig') }}
+{#{{ include('unify/switcher.html.twig') }}#}
 <!--=== End Style Switcher ===-->
 <!--=== Top ===-->
 {{ include('unify/top.html.twig') }}
@@ -38,8 +39,7 @@
 {{ include('unify/header.html.twig') }}
 <!--=== End Header ===-->
 
-{% block body %}
-{% endblock %}
+{% block body %}{% endblock %}
 
 <!--=== Copyright ===-->
 {{ include('unify/copyright.html.twig') }}
