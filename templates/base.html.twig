@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="es" class="ie7">
-<html lang="es" class="ie8">
-<html lang="es" class="ie9">
-<html lang="es">
+<!--[if IE 7]> <html lang="es" class="ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="es" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="es" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="es"> <!--<![endif]-->
 <head>
     <title>{% block title %} GPS | Poligrafía {% endblock %}</title>
     <!-- Meta -->
@@ -16,30 +16,34 @@
     <link rel="stylesheet" href="{{ asset('assets/css/style.css')}}">
     <link rel="stylesheet" href="{{ asset('assets/css/headers/header2.css')}}">
     <link rel="stylesheet" href="{{ asset('assets/plugins/bootstrap/css/bootstrap-responsive.min.css')}}">
-    <link rel="stylesheet" href="{{ asset('favicon.ico')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style_responsive.css') }}">
+    <link rel="shortcut icon" href="{{ asset('assets/favicon.ico')}}">
     <!-- CSS Implementing Plugins -->
     <link rel="stylesheet" href="{{ asset('assets/plugins/font-awesome/css/font-awesome.css')}}">
     <link rel="stylesheet" href="{{ asset('assets/plugins/flexslider/flexslider.css')}}" type="text/css" media="screen">
     <link rel="stylesheet" href="{{ asset('assets/plugins/parallax-slider/css/parallax-slider.css')}}" type="text/css">
     <link rel="stylesheet" href="{{ asset('assets/plugins/bxslider/jquery.bxslider.css')}}">
     <!-- CSS Theme -->
-    <link rel="stylesheet" href="{{ asset('assets/css/themes/blue.css')}}" id="style_color">
-    <link rel="stylesheet" href="{{ asset('assets/css/themes/headers/header2-blue.css')}}" id="style_color-header-2">
+    <link rel="stylesheet" href="{{ asset('assets/css/themes/blue.css') }}" id="style_color">
+    <link rel="stylesheet" href="{{ asset('assets/css/themes/headers/header2-blue.css') }}" id="style_color-header-2">
     {% endblock %}
 </head>
-<body>
 
+<body>
 <!--=== Style Switcher ===-->
 {#{{ include('unify/switcher.html.twig') }}#}
 <!--=== End Style Switcher ===-->
+
 <!--=== Top ===-->
 {{ include('unify/top.html.twig') }}
 <!--=== End Top ===-->
+
 <!--=== Header ===-->
 {{ include('unify/header.html.twig') }}
 <!--=== End Header ===-->
 
-{% block body %}{% endblock %}
+{% block body %}
+{% endblock %}
 
 <!--=== Copyright ===-->
 {{ include('unify/copyright.html.twig') }}
