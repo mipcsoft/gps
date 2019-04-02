@@ -1,6 +1,6 @@
 /var/
 .idea/workspace.xml
-.idea/
+.idea*.*
 /.idea/*.xml
 /.idea/
 /_gps/unify/
