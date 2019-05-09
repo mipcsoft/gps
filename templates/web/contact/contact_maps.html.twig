@@ -1,0 +1,42 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    hola contacto
+
+
+    <!--=== Breadcrumbs ===-->
+    <div class="breadcrumbs">
+        <div class="container">
+            <h1 class="color-green pull-left">Our Contacts</h1>
+            <ul class="pull-right breadcrumb">
+                <li><a href="index.html">Contáctenos</a> <span class="divider">/</span></li>
+                <li class="active">Ubíquenos</li>
+            </ul>
+        </div><!--/container-->
+    </div><!--/breadcrumbs-->
+    <!--=== End Breadcrumbs ===-->
+
+    <!-- Google Map -->
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.501269207837!2d-74.05100878529032!3d4.682588296598746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9bb5cc97881b%3A0x901f8fcc68e0612b!2sGrupo+de+Profesionales+en+Seguridad+%26+Poligraf%C3%ADa+Ltda!5e0!3m2!1ses-419!2sco!4v1557362373675!5m2!1ses-419!2sco" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div><!---/map-->
+    <!-- End Google Map -->
+
+
+        <!--=== Footer ===-->
+        <div class="footer">
+            {{ include('unify/footer.html.twig') }}
+        </div><!--/footer-->
+        <!--=== End Footer ===-->
+    #}
+
+
+{% endblock %}
+
+{% block javascripts  %}
+    {{ parent() }}
+
+
+
+{% endblock %}

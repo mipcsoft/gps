@@ -2,7 +2,7 @@
     <div class="container">
         <!-- Logo -->
         <div class="logo">
-            <a href="{{ path('index') }}"><img id="logo-header" src="{{ asset('assets/img/manrique/logo1fw.png') }}" alt="Logo"></a>
+            <a href="{{ path('index') }}"><img id="logo-header" src="{{ asset('assets/img/manrique/logo2-blue.png') }}" alt="Logo"></a>
         </div><!-- /logo -->
         <!-- Menu -->
         <div class="navbar">
@@ -34,10 +34,10 @@
                                 <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="javascript:;">Valores corporativos</a></li>
-                                <li><a href="javascript:;">Recurso humano</a></li>
-                                <li><a href="javascript:;">Política de calidad</a></li>
-                                <li><a href="javascript:;">Política de confidencialidad</a></li>
+                                <li><a href="{{ path('politics_corporate') }}">Valores corporativos</a></li>
+                                <li><a href="{{ path('politics_resource') }}">Recurso humano</a></li>
+                                <li><a href="{{ path('politics_quality') }}">Política de calidad</a></li>
+                                <li><a href="{{ path('politics_confidentiality') }}">Política de confidencialidad</a></li>
                             </ul>
                             <b class="caret-out"></b>
                         </li>
@@ -66,8 +66,8 @@
                                 <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="javascript:;">Escribanos</a></li>
-                                <li><a href="javascript:;">Ubíquenos</a></li>
+                                <li><a href="{{ path('contact_messenger') }}">Escribanos</a></li>
+                                <li><a href="{{ path('contact_maps') }}">Ubíquenos</a></li>
                             </ul>
                             <b class="caret-out"></b>
                         </li>
