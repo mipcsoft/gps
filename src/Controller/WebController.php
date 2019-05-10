@@ -78,6 +78,60 @@ class WebController extends AbstractController
         ]);
     }
 
+    /**
+    * @Route("/briefcase/polygraphy", name="briefcase_polygraphy")
+    * Poligrafía
+    */
+    public function briefcase_polygraphy()
+    {
+        return $this->render('web/briefcase/briefcase_polygraphy.html.twig', [
+            'controller_name' => 'WebController',
+        ]);
+    }
+
+    /**
+     * @Route("/briefcase/management", name="briefcase_management")
+     * Gestión
+     */
+    public function briefcase_management()
+    {
+        return $this->render('web/briefcase/briefcase_management.html.twig', [
+            'controller_name' => 'WebController',
+        ]);
+    }
+
+    /**
+     * @Route("/briefcase/personal", name="briefcase_personal")
+     * Estudios y pre selección de personal
+     */
+    public function briefcase_personal()
+    {
+        return $this->render('web/briefcase/briefcase_personal.html.twig', [
+            'controller_name' => 'WebController',
+        ]);
+    }
+
+    /**
+     * @Route("/briefcase/information", name="briefcase_information")
+     * Administración estratégica de la información
+     */
+    public function briefcase_information()
+    {
+        return $this->render('web/briefcase/briefcase_information.html.twig', [
+            'controller_name' => 'WebController',
+        ]);
+    }
+
+    /**
+     * @Route("/briefcase/security", name="briefcase_security")
+     * Estrategias de seguridad y administración del riesgo
+     */
+    public function briefcase_security()
+    {
+        return $this->render('web/briefcase/briefcase_security.html.twig', [
+            'controller_name' => 'WebController',
+        ]);
+    }
 
 
 }

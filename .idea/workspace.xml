@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dd78b02-0c47-49b2-9031-8f43549a2469" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/templates/web/politics/politics_confidentiality.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/web/politics/politics_confidentiality.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/web/politics/politics_corporate.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/web/politics/politics_corporate.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/web/politics/politics_quality.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/web/politics/politics_quality.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/web/politics/politics_resource.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/web/politics/politics_resource.html.twig" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/WebController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/WebController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unify/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/unify/header.html.twig" afterDir="false" />
+>>>>>>> c67278992b847d3234efb3d76c5e4483f53b6a68
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,12 +24,21 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/web/politics/politics_confidentiality.html.twig">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
               <caret line="21" column="200" selection-start-line="21" selection-start-column="200" selection-end-line="21" selection-end-column="200" />
+=======
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+>>>>>>> c67278992b847d3234efb3d76c5e4483f53b6a68
             </state>
           </provider>
         </entry>
@@ -52,21 +68,32 @@
         <option value="$PROJECT_DIR$/templates/unify/top.html.twig" />
         <option value="$PROJECT_DIR$/templates/unify/switcher.html.twig" />
         <option value="$PROJECT_DIR$/templates/base.html.twig" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/templates/web/index.html.twig" />
         <option value="$PROJECT_DIR$/templates/web/contact.html.twig" />
         <option value="$PROJECT_DIR$/templates/web/contact_messenger.html.twig" />
-        <option value="$PROJECT_DIR$/templates/unify/header.html.twig" />
         <option value="$PROJECT_DIR$/templates/web/politics_resource.html.twig" />
         <option value="$PROJECT_DIR$/templates/web/politics_quality.html.twig" />
         <option value="$PROJECT_DIR$/templates/web/politics_corporate.html.twig" />
         <option value="$PROJECT_DIR$/templates/web/politics_confidentiality.html.twig" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/Controller/WebController.php" />
         <option value="$PROJECT_DIR$/templates/unify/footer.html.twig" />
         <option value="$PROJECT_DIR$/templates/web/politics/politics_confidentiality.html.twig" />
         <option value="$PROJECT_DIR$/templates/web/politics/politics_quality.html.twig" />
         <option value="$PROJECT_DIR$/templates/web/politics/politics_corporate.html.twig" />
         <option value="$PROJECT_DIR$/templates/web/politics/politics_resource.html.twig" />
+=======
+        <option value="$PROJECT_DIR$/templates/web/politics/politics_resource.html.twig" />
+        <option value="$PROJECT_DIR$/templates/unify/footer.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/WebController.php" />
+        <option value="$PROJECT_DIR$/templates/unify/header.html.twig" />
+        <option value="$PROJECT_DIR$/templates/web/briefcase/briefcase_information.html.twig" />
+        <option value="$PROJECT_DIR$/templates/web/briefcase/briefcase_management.html.twig" />
+        <option value="$PROJECT_DIR$/templates/web/briefcase/briefcase_personal.html.twig" />
+        <option value="$PROJECT_DIR$/templates/web/briefcase/briefcase_polygraphy.html.twig" />
+        <option value="$PROJECT_DIR$/templates/web/briefcase/briefcase_security.html.twig" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+>>>>>>> c67278992b847d3234efb3d76c5e4483f53b6a68
       </list>
     </option>
   </component>
@@ -230,7 +257,7 @@
               <item name="gps" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="contact" type="462c0819:PsiDirectoryNode" />
+              <item name="briefcase" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gps" type="b2602c69:ProjectViewProjectNode" />
@@ -290,12 +317,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="45194000" />
+=======
+    <option name="totallyTimeSpent" value="44215000" />
+>>>>>>> c67278992b847d3234efb3d76c5e4483f53b6a68
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29597315" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2927383" />
+>>>>>>> c67278992b847d3234efb3d76c5e4483f53b6a68
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -353,13 +389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/unify/top.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -375,29 +404,53 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/web/contact.html.twig" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/templates/unify/contact/breadcrumbs.html.twig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/web/contact_messenger.html.twig" />
     <entry file="file://$PROJECT_DIR$/templates/web/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="18" selection-end-line="32" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/templates/web/contact_messenger.html.twig" />
     <entry file="file://$PROJECT_DIR$/templates/unify/container.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4728" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/unify/header.html.twig">
+    <entry file="file://$PROJECT_DIR$/templates/web/contact_maps.html.twig" />
+    <entry file="file://$PROJECT_DIR$/templates/web/pruebas.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/politics_confidentiality.html.twig" />
+    <entry file="file://$PROJECT_DIR$/templates/web/politics_corporate.html.twig" />
+    <entry file="file://$PROJECT_DIR$/templates/web/politics_quality.html.twig" />
+    <entry file="file://$PROJECT_DIR$/templates/web/politics_resource.html.twig" />
+    <entry file="file://$PROJECT_DIR$/templates/web/politics/politics_resource.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+        <state relative-caret-position="270">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unify/footer.html.twig">
+>>>>>>> c67278992b847d3234efb3d76c5e4483f53b6a68
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unify/contact/breadcrumbs.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unify/header.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/templates/web/contact_maps.html.twig" />
     <entry file="file://$PROJECT_DIR$/templates/web/pruebas.twig">
       <provider selected="true" editor-type-id="text-editor" />
@@ -424,18 +477,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+=======
+    <entry file="file://$PROJECT_DIR$/templates/web/politics/politics_confidentiality.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="18" selection-end-line="32" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/politics/politics_corporate.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="61" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/briefcase/briefcase_personal.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="72" selection-start-line="10" selection-start-column="72" selection-end-line="10" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/briefcase/briefcase_management.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="29" selection-end-line="43" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/briefcase/briefcase_polygraphy.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/briefcase/briefcase_security.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="10" column="88" selection-start-line="10" selection-start-column="88" selection-end-line="10" selection-end-column="88" />
+>>>>>>> c67278992b847d3234efb3d76c5e4483f53b6a68
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/web/politics/politics_quality.html.twig">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="170">
           <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+=======
+        <state relative-caret-position="740">
+          <caret line="133" column="5" lean-forward="true" selection-start-line="133" selection-start-column="5" selection-end-line="133" selection-end-column="5" />
+>>>>>>> c67278992b847d3234efb3d76c5e4483f53b6a68
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/web/politics/politics_resource.html.twig">
+    <entry file="file://$PROJECT_DIR$/templates/web/briefcase/briefcase_information.html.twig">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="170">
           <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
         </state>
@@ -445,6 +548,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="21" column="200" selection-start-line="21" selection-start-column="200" selection-end-line="21" selection-end-column="200" />
+=======
+        <state relative-caret-position="68">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+>>>>>>> c67278992b847d3234efb3d76c5e4483f53b6a68
         </state>
       </provider>
     </entry>
