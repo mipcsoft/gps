@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dd78b02-0c47-49b2-9031-8f43549a2469" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/WebController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/WebController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/unify/header.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/unify/header.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/unify/footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/unify/footer.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/web/politics/politics_resource.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/web/politics/politics_resource.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Controller/WebController.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/web/politics/politics_resource.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="556">
-              <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="270">
+              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/unify/footer.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -62,6 +70,8 @@
         <option value="$PROJECT_DIR$/templates/web/politics_corporate.html.twig" />
         <option value="$PROJECT_DIR$/templates/web/politics_confidentiality.html.twig" />
         <option value="$PROJECT_DIR$/src/Controller/WebController.php" />
+        <option value="$PROJECT_DIR$/templates/web/politics/politics_resource.html.twig" />
+        <option value="$PROJECT_DIR$/templates/unify/footer.html.twig" />
       </list>
     </option>
   </component>
@@ -220,6 +230,20 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="gps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gps" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="contact" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gps" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gps" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="politics" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -265,16 +289,15 @@
       <workItem from="1554159711488" duration="5469000" />
       <workItem from="1554169664626" duration="717000" />
       <workItem from="1557357729852" duration="805000" />
-      <workItem from="1557358782613" duration="6735000" />
+      <workItem from="1557358782613" duration="11440000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34286000" />
+    <option name="totallyTimeSpent" value="38991000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29194632" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -311,9 +334,6 @@
           <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/unify/footer.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/unify/slider.html.twig">
       <provider selected="true" editor-type-id="text-editor">
@@ -435,7 +455,21 @@
     <entry file="file://$PROJECT_DIR$/src/Controller/WebController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="556">
-          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/politics/politics_resource.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/unify/footer.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
         </state>
       </provider>
     </entry>
