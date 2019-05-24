@@ -133,6 +133,39 @@ class WebController extends AbstractController
         ]);
     }
 
+    /**
+     * @Route("/enterprise/about", name="enterprise_about")
+     * Empresa quienes somos
+     */
+    public function enterprise_about()
+    {
+        return $this->render('web/enterprise/enterprise_about.html.twig', [
+            'controller_name' => 'WebController',
+        ]);
+    }
+
+    /**
+     * @Route("/enterprise/mission", name="enterprise_mission")
+     * Empresa Mision
+     */
+    public function enterprise_mission()
+    {
+        return $this->render('web/enterprise/enterprise_mission.html.twig', [
+            'controller_name' => 'WebController',
+        ]);
+    }
+
+    /**
+     * @Route("/enterprise/view", name="enterprise_view")
+     * Empresa Vision
+     */
+    public function enterprise_view()
+    {
+        return $this->render('web/enterprise/enterprise_view.html.twig', [
+            'controller_name' => 'WebController',
+        ]);
+    }
+
 
 }
 

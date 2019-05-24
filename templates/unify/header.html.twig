@@ -1,15 +1,22 @@
 <!-- Start Header Area -->
-<div id="undefined-sticky-wrapper" class="sticky-wrapper" style="height: 68px;"><header class="default-header">
+<div id="undefined-sticky-wrapper" class="sticky-wrapper" style="height: 77px;">
         <div class="container">
             <div class="logo">
-            <a href="{{ path('index') }}"><img id="logo-header" src="{{ asset('assets/img/manrique/logo2-blue.png') }}" alt="Logo"></a>
+            <a href="{{ path('index') }}"><img id="" src="{{ asset('assets/img/manrique/logo2-blue.png') }}" alt="Logo">
+              </a>
+            </div>
         </div>
-    </header>
 </div>
 <!-- End Header Area -->
 
 <div class="header">
     <div class="container">
+        <!-- Logo -->
+        {#
+        <div class="logo">
+            <a href="{{ path('index') }}"><img id="logo-header" src="{{ asset('assets/img/manrique/logo2-blue.png') }}" alt="Logo"></a>
+        </div><!-- /logo -->
+        #}
         <!-- Menu -->
         <div class="navbar">
             <div class="navbar-inner">
@@ -29,9 +36,9 @@
                                 <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="javascript:;">Quienes somos</a></li>
-                                <li><a href="javascript:;">Misión</a></li>
-                                <li><a href="javascript:;">Visión</a></li>
+                                <li><a href="{{ path('enterprise_about') }}">Quienes somos</a></li>
+                                <li><a href="{{ path('enterprise_mission') }}">Misión</a></li>
+                                <li><a href="{{ path('enterprise_view') }}">Visión</a></li>
                             </ul>
                             <b class="caret-out"></b>
                         </li>
