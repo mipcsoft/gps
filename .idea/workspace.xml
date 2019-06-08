@@ -2,36 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b20d7b02-a805-4b21-a20a-9580db10fe54" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gps.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gps.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_gps/notas.py" beforeDir="false" afterPath="$PROJECT_DIR$/_gps/notas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/WebController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/WebController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/unify/contact/breadcrumbs.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/unify/container.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/unify/copyright.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/unify/footer.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/unify/header.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/unify/purchase.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/unify/slider.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/unify/switcher.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/unify/top.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/web/briefcase/briefcase_information.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/web/briefcase/briefcase_management.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/web/briefcase/briefcase_personal.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/web/briefcase/briefcase_polygraphy.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/web/briefcase/briefcase_security.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/web/contact/contact_maps.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/web/contact/contact_messenger.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/web/enterprise/enterprise_about.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/web/enterprise/enterprise_mission.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/web/enterprise/enterprise_view.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/web/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/web/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/web/politics/politics_confidentiality.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/web/politics/politics_corporate.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/web/politics/politics_quality.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/web/politics/politics_resource.html.twig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/web/pruebas.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/web/pruebas.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base/mainheader.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base/mainheader.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,29 +31,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/WebController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#34#99#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/web/pruebas.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -100,10 +52,23 @@
         <option value="$PROJECT_DIR$/templates/base/carousel.html.twig" />
         <option value="$PROJECT_DIR$/templates/base.html.twig" />
         <option value="$PROJECT_DIR$/templates/web/index.html.twig" />
-        <option value="$PROJECT_DIR$/templates/base/mainheader.html.twig" />
-        <option value="$PROJECT_DIR$/_gps/notas.py" />
-        <option value="$PROJECT_DIR$/src/Controller/WebController.php" />
         <option value="$PROJECT_DIR$/templates/web/pruebas.twig" />
+        <option value="$PROJECT_DIR$/templates/web/enterprise/about.html.twig" />
+        <option value="$PROJECT_DIR$/_gps/notas.py" />
+        <option value="$PROJECT_DIR$/templates/web/enterprise/mission.html.twig" />
+        <option value="$PROJECT_DIR$/templates/web/enterprise/view.html.twig" />
+        <option value="$PROJECT_DIR$/templates/web/politics/confidentiality.html.twig" />
+        <option value="$PROJECT_DIR$/templates/web/politics/quality.html.twig" />
+        <option value="$PROJECT_DIR$/templates/web/politics/corporate.html.twig" />
+        <option value="$PROJECT_DIR$/templates/web/politics/resource.html.twig" />
+        <option value="$PROJECT_DIR$/templates/web/briefcase/management.html.twig" />
+        <option value="$PROJECT_DIR$/templates/web/briefcase/personal.html.twig" />
+        <option value="$PROJECT_DIR$/templates/web/briefcase/polygraphy.html.twig" />
+        <option value="$PROJECT_DIR$/templates/web/briefcase/information.html.twig" />
+        <option value="$PROJECT_DIR$/templates/web/briefcase/security.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/WebController.php" />
+        <option value="$PROJECT_DIR$/templates/base/mainheader.html.twig" />
+        <option value="$PROJECT_DIR$/templates/web/contact/messenger.html.twig" />
       </list>
     </option>
   </component>
@@ -260,13 +225,14 @@
               <item name="gps" type="b2602c69:ProjectViewProjectNode" />
               <item name="gps" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gps" type="b2602c69:ProjectViewProjectNode" />
               <item name="gps" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="contact" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -301,36 +267,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560006593332</updated>
-      <workItem from="1560006614463" duration="6616000" />
+      <workItem from="1560006614463" duration="18888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6616000" />
+    <option name="totallyTimeSpent" value="18888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" weight="0.32980332" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Database Changes" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32980332" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,6 +336,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/pruebas.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/topheader.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/footer.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
@@ -378,41 +359,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/web/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_gps/notas.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="39" />
+          <caret line="24" column="63" selection-start-line="24" selection-start-column="63" selection-end-line="24" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base/mainheader.html.twig">
+    <entry file="file://$PROJECT_DIR$/templates/web/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="55" column="154" selection-start-line="55" selection-start-column="154" selection-end-line="55" selection-end-column="165" />
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/enterprise/mission.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/enterprise/view.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base/index/carousel.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="70" lean-forward="true" selection-start-line="17" selection-start-column="70" selection-end-line="17" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/politics/confidentiality.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/politics/quality.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/politics/resource.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/politics/corporate.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="73" selection-start-line="10" selection-start-column="73" selection-end-line="10" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/briefcase/management.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/briefcase/personal.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/briefcase/information.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="86" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/briefcase/polygraphy.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="62" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/briefcase/security.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="99" selection-start-line="10" selection-start-column="99" selection-end-line="10" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/enterprise/about.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/web/contact/messenger.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/WebController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="393">
+          <caret line="165" lean-forward="true" selection-start-line="165" selection-end-line="165" />
           <folding>
             <element signature="e#34#99#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/web/pruebas.twig">
+    <entry file="file://$PROJECT_DIR$/templates/base/mainheader.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="274">
+          <caret line="47" column="106" selection-start-line="47" selection-start-column="96" selection-end-line="47" selection-end-column="106" />
         </state>
       </provider>
     </entry>

@@ -22,4 +22,4 @@ composer require symfony/maker-bundle --dev
 
 https://blog.wearedrew.co/3-pasos-para-integrar-whatsapp-con-tu-sitio-web
 
-<img src="{{ asset('assets/img/manrique/iconfinder_flag_colombia_92836.png') }}
+ <img src="{{ asset('assets/img/bg-img/about1.jpg') }}" alt="">
