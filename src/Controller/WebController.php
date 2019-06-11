@@ -164,6 +164,28 @@ class WebController extends AbstractController
         ]);
     }
 
+    /**
+     * @Route("/contact/maps", name="maps")
+     * contacto MAPS UBIQUENOS
+     */
+    public function contact_maps()
+    {
+        return $this->render('web/contact/maps.html.twig', [
+            'controller_name' => 'WebController',
+        ]);
+    }
 
+    /**
+     * @Route("/contact/social", name="social")
+     * contacto REDES SOCIALES
+     */
+    public function contact_social()
+    {
+        return $this->render('web/contact/social.html.twig', [
+            'controller_name' => 'WebController',
+        ]);
+    }
+
+    
 }
 
