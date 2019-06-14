@@ -3,13 +3,17 @@
 {% block body %}
 
     <!-- ***** Breadcumb Area Start ***** -->
-    <section class="breadcumb-area bg-img gradient-background-overlay" style="background-image: url(assets/img/bg-img/breadcumb1.jpg);">
+    <section class="breadcumb-area bg-img gradient-background-overlay" style="background-image: url('{{ asset('assets/img/bg-img/breadcumb1.jpg') }}');">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
-                    <div class="breadcumb-content">
+                    <div class="breadcumb-content-overlay">
                         <h3 class="breadcumb-title">Valores Corporativos </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer</p>
+                        <ul class="pull-right breadcrumb">
+                            <li class="active">Política <span class="divider">/</span></li>
+                            <li><a href="{{ path('corporate') }}">Valores Corporativos </a></li>
+                        </ul>
+
                     </div>
                 </div>
             </div>
@@ -22,9 +26,52 @@
             <div class="row align-items-center">
                 <div class="col-12 col-lg-6">
                     <div class="features-content">
-                        <h2> Titulo </h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing eli.Lorem ipsum dolor sit amet, consec tetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer.</p>
-                        <a href="#" class="btn medilife-btn mt-50">View the services <span>+</span></a>
+
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <th>1</th>
+                                    <td>Creemos en Dios como guía espiritual, respetando los demás credos</td>
+                                </tr>
+                                <tr>
+                                    <th>2</th>
+                                    <td>Los mandatos de la Constitucionales Política de Colombia y las leyes del Estado priman por encima de intereses de grupo o individuales.</td>
+                                </tr>
+                                <tr>
+                                    <th>3</th>
+                                    <td>Creemos en ser los mejores.</td>
+                                </tr>
+                                <tr>
+                                    <th>4</th>
+                                    <td>El trabajo bien hecho siempre dará frutos y progresos.</td>
+                                </tr>
+                                <tr>
+                                    <th>5</th>
+                                    <td>Las personas tienen su propia importancia como individuos.</td>
+                                </tr>
+                                <tr>
+                                    <th>6</th>
+                                    <td>La satisfacción del cliente es el principal parámetro que permite medir la calidad.</td>
+                                </tr>
+                                <tr>
+                                    <th>7</th>
+                                    <td>Todos los integrantes de la empresa deben ser innovadores, y como consecuencia la disposición a apoyarnos en el fracaso.</td>
+                                </tr>
+                                <tr>
+                                    <th>8</th>
+                                    <td>El empoderamiento y la informalidad permiten mejorar la comunicación.</td>
+                                </tr>
+                                <tr>
+                                    <th>9</th>
+                                    <td>El crecimiento económico y las utilidades de la empresa son dos condiciones explícitas y plenamente reconocidas por cada socio.</td>
+                                </tr>
+                                <tr>
+                                    <th>10</th>
+                                    <td>Respeto por los derechos humanos y la dignidad de las personas.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
@@ -32,6 +79,8 @@
                         <img src="{{ asset('assets/img/bg-img/about1.jpg') }}" alt="">
                     </div>
                 </div>
+
+
             </div>
         </div>
     </div>
