@@ -3,13 +3,17 @@
 {% block body %}
 
     <!-- ***** Breadcumb Area Start ***** -->
-    <section class="breadcumb-area bg-img gradient-background-overlay" style="background-image: url(assets/img/bg-img/breadcumb1.jpg);">
+    <section class="breadcumb-area bg-img gradient-background-overlay" style="background-image: url('{{ asset('assets/img/manrique/pol11.jpg') }}');">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
-                    <div class="breadcumb-content">
+                    <div class="breadcumb-content-overlay">
                         <h3 class="breadcumb-title">Estrategias de Seguridad y Administración del Riesgo </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer</p>
+                        <ul class="pull-right breadcrumb">
+                            <li class="active">Portafolio <span class="divider">/</span></li>
+                            <li><a href="{{ path('security') }}">Estrategias de Seguridad y Administración del Riesgon </a></li>
+                        </ul>
+
                     </div>
                 </div>
             </div>
@@ -22,14 +26,21 @@
             <div class="row align-items-center">
                 <div class="col-12 col-lg-6">
                     <div class="features-content">
-                        <h2> Titulo </h2>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing eli.Lorem ipsum dolor sit amet, consec tetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer.</p>
-                        <a href="#" class="btn medilife-btn mt-50">View the services <span>+</span></a>
+                        <ul class="list-group">
+                            <li class="list-group-item">Planes corporativos de manejo del riesgo, gestión de emergencias y situaciones de crisis.</li>
+                            <li class="list-group-item">Investigación privada y monitoreo de las amenazas.</li>
+                            <li class="list-group-item">Preparación, formulación y sustentación de Estudios de Seguridad física y empresarial.</li>
+                            <li class="list-group-item">Esquema de seguridad de personal y empresarial.</li>
+                            <li class="list-group-item">Verificación de seguridad de personas e instalaciones</li>
+                            <li class="list-group-item">Prevención y consejería contra extorsión y secuestro.</li>
+                            <li class="list-group-item">Auditorías integrales de seguridad.</li>
+                            <li class="list-group-item">Capacitación en cultura de la Seguridad Integral.</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="features-thumbnail">
-                        <img src="{{ asset('assets/img/bg-img/about1.jpg') }}" alt="">
+                        <img src="{{ asset('assets/img/manrique/pol17.jpg') }}" alt="">
                     </div>
                 </div>
             </div>
