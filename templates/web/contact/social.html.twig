@@ -3,13 +3,17 @@
 {% block body %}
 
     <!-- ***** Breadcumb Area Start ***** -->
-    <section class="breadcumb-area bg-img gradient-background-overlay" style="background-image: url(assets/img/bg-img/breadcumb1.jpg);">
+    <section class="breadcumb-area bg-img gradient-background-overlay" style="background-image: url('{{ asset('assets/img/manrique/pol5.jpg') }}');">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
-                    <div class="breadcumb-content">
+                    <div class="breadcumb-content-overlay">
                         <h3 class="breadcumb-title">Redes Sociales </h3>
-                        <p>Lorem ipsum dolor sit amet, consectetuer</p>
+                        <ul class="pull-right breadcrumb">
+                            <li class="active">Contáctenos <span class="divider">/</span></li>
+                            <li><a href="{{ path('social') }}">Redes Sociales </a></li>
+                        </ul>
+
                     </div>
                 </div>
             </div>
